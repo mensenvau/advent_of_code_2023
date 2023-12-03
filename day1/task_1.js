@@ -11,6 +11,7 @@ for (let i = 0; i < data.length; i++) {
         if (x >= 0 && x < 10) break;
     }
 
+
     for (let k = data[i].length - 1; k >= 0; k--) {
         y = parseInt(data[i][k]);
         if (y >= 0 && y < 10) break;
